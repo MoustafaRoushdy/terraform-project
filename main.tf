@@ -14,7 +14,7 @@
 #   owners = ["979382823631"] # Bitnami
 # }
 
-resource "aws_instance" "example" {
+resource "aws_instance" "web" {
   ami           = "ami-0d2017e886fc2c0ab"
   instance_type = "t2.micro"
 
